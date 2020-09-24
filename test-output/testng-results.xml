@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37847" started-at="2020-09-23T04:32:52Z" finished-at="2020-09-23T04:33:30Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestNG002.amazon()[pri:0, instance:com.selenium.MavenProject_August9_30AMBatch.TestNG002@6107227e]" name="amazon" class="com.selenium.MavenProject_August9_30AMBatch.TestNG002"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TestNG002.amazon()[pri:0, instance:com.selenium.MavenProject_August9_30AMBatch.TestNG002@6107227e]" name="amazon" class="com.selenium.MavenProject_August9_30AMBatch.TestNG002"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="37847" started-at="2020-09-23T04:32:52Z" finished-at="2020-09-23T04:33:30Z">
+      <class name="com.selenium.MavenProject_August9_30AMBatch.TestNG002">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.selenium.MavenProject_August9_30AMBatch.TestNG002@6107227e]" name="startProcess" is-config="true" duration-ms="19967" started-at="2020-09-23T04:32:52Z" finished-at="2020-09-23T04:33:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.selenium.MavenProject_August9_30AMBatch.TestNG002@6107227e]" name="amazon" duration-ms="16287" started-at="2020-09-23T04:33:12Z" finished-at="2020-09-23T04:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.selenium.MavenProject_August9_30AMBatch.TestNG002@6107227e]" name="endProcess" is-config="true" duration-ms="1528" started-at="2020-09-23T04:33:29Z" finished-at="2020-09-23T04:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.selenium.MavenProject_August9_30AMBatch.TestNG002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
